@@ -3,9 +3,314 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Uzum Market — internet-doʻkon</title>
+    <link rel="icon" href="https://uzum.uz//static/img/icons/favicon.svg">
 </head>
 <body>
-    <h1></h1>
+    <header>
+        <div class="headerdiv1">
+            <div class="row">
+                <div class="col-4 col-1">
+                    <ul>
+                        <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" id="compass-icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 11C7 8.23858 9.23858 6 12 6C14.7614 6 17 8.23858 17 11C17 13.2317 15.8079 15.2429 14.5153 16.7262C13.8738 17.4623 13.2212 18.0525 12.7097 18.4561C12.4536 18.6582 12.2375 18.8098 12.0802 18.9082C12.0504 18.9268 12.0237 18.9429 12 18.9567C11.9763 18.9429 11.9496 18.9268 11.9198 18.9082C11.7625 18.8098 11.5464 18.6582 11.2903 18.4561C10.7788 18.0525 10.1262 17.4623 9.48471 16.7262C8.19208 15.2429 7 13.2317 7 11ZM12 5C8.68629 5 6 7.68629 6 11C6 13.5808 7.36827 15.8196 8.73081 17.3832C9.41691 18.1705 10.1156 18.803 10.6709 19.2411C10.9482 19.46 11.1944 19.634 11.3897 19.7561C11.4866 19.8167 11.5778 19.8688 11.6582 19.9076C11.6982 19.9269 11.7428 19.9465 11.7889 19.9623C11.8251 19.9747 11.9044 20 12 20C12.0956 20 12.1749 19.9747 12.2111 19.9623C12.2572 19.9465 12.3018 19.9269 12.3418 19.9076C12.4222 19.8688 12.5134 19.8167 12.6103 19.7561C12.8056 19.634 13.0518 19.46 13.3291 19.2411C13.8844 18.803 14.5831 18.1705 15.2692 17.3832C16.6317 15.8196 18 13.5808 18 11C18 7.68629 15.3137 5 12 5ZM11 11C11 10.4477 11.4477 10 12 10C12.5523 10 13 10.4477 13 11C13 11.5523 12.5523 12 12 12C11.4477 12 11 11.5523 11 11ZM12 9C10.8954 9 10 9.89543 10 11C10 12.1046 10.8954 13 12 13C13.1046 13 14 12.1046 14 11C14 9.89543 13.1046 9 12 9Z" fill="#141415"></path>
+                        </svg><a href="">Город: <span>Ташкент</span></a></li>
+                        <li><a href="">Пункты выдачи</a></li>
+                    </ul>
+                </div>
+                <div class="col-4 col-2">
+                    <p>Доставим ваш заказ бесплатно — всего за 1 день!</p>
+                </div>
+                <div class="col-4 col-3">
+                    <ul>
+                        <li><a href="">Вопрос-ответ</a></li>
+                        <li><a href="">Мои заказы</a></li>
+                        <li><span class="icon__selected-before"><svg width="20" height="20" viewBox="0 0 20 21" fill="#000" xmlns="http://www.w3.org/2000/svg" class="ui-icon ">
+                            <mask id="mask0_9302_3025" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="21">
+                            <path d="M10 20.5C15.5228 20.5 20 16.0228 20 10.5C20 4.97715 15.5228 0.5 10 0.5C4.47715 0.5 0 4.97715 0 10.5C0 16.0228 4.47715 20.5 10 20.5Z" fill="#F4F5F5"></path>
+                            </mask>
+                            <g mask="url(#mask0_9302_3025)">
+                            <rect y="0.5" width="20" height="20" fill="white"></rect>
+                            <rect y="13.5" width="20" height="7" fill="#E63838"></rect>
+                            <rect y="7" width="20" height="7" fill="#3131C4"></rect>
+                            </g>
+                            </svg></span><a href="">Русский</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="headerdiv2">
+            <img src="img/Без названия.svg" alt="">
+            <button type="button">
+                <div class="top"></div>
+                <div class="bottom"></div>
+                <div class="inner"></div>
+                <p>Каталог</p>
+            </button>
+            <div class="input-header">
+                <input class="inp1" type="text" placeholder="Искать товары и категории">
+                <div class="inp-search">
+                <svg data-v-130f92c0="" width="28" height="28" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg" class="ui-icon  magnifying-glass">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 10.5C15.5 13.2614 13.2614 15.5 10.5 15.5C7.73858 15.5 5.5 13.2614 5.5 10.5C5.5 7.73858 7.73858 5.5 10.5 5.5C13.2614 5.5 15.5 7.73858 15.5 10.5ZM14.3398 15.7451C13.264 16.5341 11.9364 17 10.5 17C6.91015 17 4 14.0899 4 10.5C4 6.91015 6.91015 4 10.5 4C14.0899 4 17 6.91015 17 10.5C17 11.9364 16.5341 13.264 15.7451 14.3398L19.709 18.3036C20.097 18.6917 20.097 19.3209 19.709 19.709C19.3209 20.097 18.6917 20.097 18.3036 19.709L14.3398 15.7451Z"></path>
+                </svg>
+                </div>
+            </div>
+            <div class="qism3">
+                <li>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                          </svg>  <span >Войти</span>
+                   </button>
+                <!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+        
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+             <h1>Введите номер телефона</h1>
+             <p>Отправим смс с кодом подтверждения</p>
+             <input type="email" class="form-control" placeholder="+998 00 000-00-00" id="phoneInp" aria-describedby="emailHelp">
+            <div class="d-flex justify-content-center mt-3" >
+                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1" onclick="locYoz()" class="btn btn-primary">Получить код</button>
+                
+                <!-- Modal -->
+
+            </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" >
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+            <div class="d-flex">
+                <input type="email"  class="form-control w-25" id="inp2" aria-describedby="emailHelp">
+                <input type="email" class="form-control w-25" id="inp3" aria-describedby="emailHelp">
+                <input type="email" class="form-control w-25" id="inp4" aria-describedby="emailHelp">
+                <input type="email" class="form-control w-25" id="inp5" aria-describedby="emailHelp">
+                 
+            </div> 
+            <h1 id="modalh1"></h1> 
+            <div class="d-flex justify-content-center mt-4">
+                <button onclick="tekshir()" type="button" class="btn btn-primary">Tasdiqlash</button>
+                     
+            </div> 
+        </div>
+
+ 
+      </div>
+    </div>
+  </div>
+                </li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-suit-heart" viewBox="0 0 16 16">
+                    <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                  </svg><a href="">Избранное</a></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                  </svg><a href="">Корзина</a></li>
+            </div>
+        </div>
+        <div class="headerdiv3">
+            <div class="rasrochka">
+                <li><img src="img/paiment.png" alt=""><a href="">Халяльная рассрочка</a></li>
+                <li><a href="">Электроника</a></li>
+                <li><a href="">Бытовая техника</a></li>
+                <li><a href="">Одежда</a></li>
+                <li><a href="">Обувь</a></li>
+                <li><a href="">Аксессуары</a></li>
+                <li><a href="">Красота</a></li>
+                <li><a href="">Здоровье</a></li>
+                <li><a href="">Товары для дома</a></li>
+                <li><a href="">Ещё</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg></li>
+            </div>
+        </div>
+    </header>
+    <!-- Slide block -->
+    <div class="rasmslide">
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="img/promokod.jpg" class="d-block w-100" alt="...">
+                  </div>
+              <div class="carousel-item active">
+                <img src="img/bazar.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/naborshkolniy.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/smartfon.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/rugzagjpg.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/rubashka.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/tetrad.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/noutbuk.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </div>
+    <br>
+    <!-- Main block -->
+    <div class="main">
+        <br>
+        <a href=""><h4>Школьный Базар</h4><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-chevron-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+        </svg></a>
+        <br>
+        <div class="beshlik">
+            <div class="bozor">
+                <a href="products.html">
+                <div class="img">
+                    <img src="img/daftarlar.jpg" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-suit-heart yurakcha" viewBox="0 0 16 16">
+                        <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                      </svg>
+                    <p>Набор школьных принадлежностей, 36 предметов</p>
+                    <span>11 400 сум/мес</span>
+                    <div class="narxi">
+                        <div class="text">
+                            <h5>150 000 сум</h5>
+                            <p>95 000 сум </p>
+                        </div>
+                        <svg data-v-b3e9397c="" width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="ui-icon  add-cart-icon">
+                            <path d="M8 10V8H6V12.5C6 12.7761 5.77614 13 5.5 13C5.22386 13 5 12.7761 5 12.5V7H8C8 4.59628 9.95227 3 12 3C14.0575 3 16 4.70556 16 7H19V19.5C19 20.3284 18.3284 21 17.5 21H12.5C12.2239 21 12 20.7761 12 20.5C12 20.2239 12.2239 20 12.5 20H17.5C17.7761 20 18 19.7761 18 19.5V8H16V10H15V8H9V10H8ZM12 4C10.4477 4 9 5.20372 9 7H15C15 5.29444 13.5425 4 12 4Z" fill="black"></path>
+                            <path d="M7.5 14C7.77614 14 8 14.2239 8 14.5V17H10.5C10.7761 17 11 17.2239 11 17.5C11 17.7761 10.7761 18 10.5 18H8V20.5C8 20.7761 7.77614 21 7.5 21C7.22386 21 7 20.7761 7 20.5V18H4.5C4.22386 18 4 17.7761 4 17.5C4 17.2239 4.22386 17 4.5 17H7V14.5C7 14.2239 7.22386 14 7.5 14Z" fill="black"></path>
+                            </svg>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="bozor">
+                <a href="">
+                <div class="img">
+                    <img src="img/smartfon2.jpg" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-suit-heart yurakcha" viewBox="0 0 16 16">
+                        <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                      </svg>
+                    <p>Смартфон Xiaomi Redmi A2+ 3/64 ГБ 2 SIM</p>
+                    <span>143 880 сум/мес</span>
+                    <br>
+                    <div class="narxi">
+                        <div class="text">
+                            <h5>1 500 000 сум</h5>
+                            <p>1 199 000 сум </p>
+                        </div>
+                        <svg data-v-b3e9397c="" width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="ui-icon  add-cart-icon">
+                            <path d="M8 10V8H6V12.5C6 12.7761 5.77614 13 5.5 13C5.22386 13 5 12.7761 5 12.5V7H8C8 4.59628 9.95227 3 12 3C14.0575 3 16 4.70556 16 7H19V19.5C19 20.3284 18.3284 21 17.5 21H12.5C12.2239 21 12 20.7761 12 20.5C12 20.2239 12.2239 20 12.5 20H17.5C17.7761 20 18 19.7761 18 19.5V8H16V10H15V8H9V10H8ZM12 4C10.4477 4 9 5.20372 9 7H15C15 5.29444 13.5425 4 12 4Z" fill="black"></path>
+                            <path d="M7.5 14C7.77614 14 8 14.2239 8 14.5V17H10.5C10.7761 17 11 17.2239 11 17.5C11 17.7761 10.7761 18 10.5 18H8V20.5C8 20.7761 7.77614 21 7.5 21C7.22386 21 7 20.7761 7 20.5V18H4.5C4.22386 18 4 17.7761 4 17.5C4 17.2239 4.22386 17 4.5 17H7V14.5C7 14.2239 7.22386 14 7.5 14Z" fill="black"></path>
+                            </svg>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="bozor">
+                <a href="">
+                <div class="img">
+                    <img src="img/koylak.jpg" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-suit-heart yurakcha" viewBox="0 0 16 16">
+                        <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                      </svg>
+                    <p>Рубашка для мальчиков</p>
+                    <span>8 400 сум/мес</span>
+                    <br><br>
+                    <div class="narxi">
+                        <div class="text">
+                            <h5>105 000 сум</h5>
+                            <p>70 000 сум </p>
+                        </div>
+                        <svg data-v-b3e9397c="" width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="ui-icon  add-cart-icon">
+                            <path d="M8 10V8H6V12.5C6 12.7761 5.77614 13 5.5 13C5.22386 13 5 12.7761 5 12.5V7H8C8 4.59628 9.95227 3 12 3C14.0575 3 16 4.70556 16 7H19V19.5C19 20.3284 18.3284 21 17.5 21H12.5C12.2239 21 12 20.7761 12 20.5C12 20.2239 12.2239 20 12.5 20H17.5C17.7761 20 18 19.7761 18 19.5V8H16V10H15V8H9V10H8ZM12 4C10.4477 4 9 5.20372 9 7H15C15 5.29444 13.5425 4 12 4Z" fill="black"></path>
+                            <path d="M7.5 14C7.77614 14 8 14.2239 8 14.5V17H10.5C10.7761 17 11 17.2239 11 17.5C11 17.7761 10.7761 18 10.5 18H8V20.5C8 20.7761 7.77614 21 7.5 21C7.22386 21 7 20.7761 7 20.5V18H4.5C4.22386 18 4 17.7761 4 17.5C4 17.2239 4.22386 17 4.5 17H7V14.5C7 14.2239 7.22386 14 7.5 14Z" fill="black"></path>
+                            </svg>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="bozor">
+                <a href="">
+                <div class="img">
+                    <img src="img/daftar.jpg" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-suit-heart yurakcha" viewBox="0 0 16 16">
+                        <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                      </svg>
+                    <p>Тетрадь в клетку для девочек, 48 листов, 5 шт</p>
+                    <span>1 440 сум/мес</span>
+                    <div class="narxi">
+                        <div class="text">
+                            <h5>13 000 сум</h5>
+                            <p>12 000 сум </p>
+                        </div>
+                        <svg data-v-b3e9397c="" width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="ui-icon  add-cart-icon">
+                            <path d="M8 10V8H6V12.5C6 12.7761 5.77614 13 5.5 13C5.22386 13 5 12.7761 5 12.5V7H8C8 4.59628 9.95227 3 12 3C14.0575 3 16 4.70556 16 7H19V19.5C19 20.3284 18.3284 21 17.5 21H12.5C12.2239 21 12 20.7761 12 20.5C12 20.2239 12.2239 20 12.5 20H17.5C17.7761 20 18 19.7761 18 19.5V8H16V10H15V8H9V10H8ZM12 4C10.4477 4 9 5.20372 9 7H15C15 5.29444 13.5425 4 12 4Z" fill="black"></path>
+                            <path d="M7.5 14C7.77614 14 8 14.2239 8 14.5V17H10.5C10.7761 17 11 17.2239 11 17.5C11 17.7761 10.7761 18 10.5 18H8V20.5C8 20.7761 7.77614 21 7.5 21C7.22386 21 7 20.7761 7 20.5V18H4.5C4.22386 18 4 17.7761 4 17.5C4 17.2239 4.22386 17 4.5 17H7V14.5C7 14.2239 7.22386 14 7.5 14Z" fill="black"></path>
+                            </svg>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="bozor">
+                <a href="">
+                <div class="img">
+                    <img src="img/somka.jpg" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-suit-heart yurakcha" viewBox="0 0 16 16">
+                        <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                      </svg>
+                    <p>Школьный рюкзак для детей</p>
+                    <span>15 480 сум/мес</span>
+                    <br><br>
+                    <div class="narxi">
+                        <div class="text">
+                            <h5>200 000 сум</h5>
+                            <p>129 000 сум </p>
+                        </div>
+                        <svg data-v-b3e9397c="" width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="ui-icon  add-cart-icon">
+                            <path d="M8 10V8H6V12.5C6 12.7761 5.77614 13 5.5 13C5.22386 13 5 12.7761 5 12.5V7H8C8 4.59628 9.95227 3 12 3C14.0575 3 16 4.70556 16 7H19V19.5C19 20.3284 18.3284 21 17.5 21H12.5C12.2239 21 12 20.7761 12 20.5C12 20.2239 12.2239 20 12.5 20H17.5C17.7761 20 18 19.7761 18 19.5V8H16V10H15V8H9V10H8ZM12 4C10.4477 4 9 5.20372 9 7H15C15 5.29444 13.5425 4 12 4Z" fill="black"></path>
+                            <path d="M7.5 14C7.77614 14 8 14.2239 8 14.5V17H10.5C10.7761 17 11 17.2239 11 17.5C11 17.7761 10.7761 18 10.5 18H8V20.5C8 20.7761 7.77614 21 7.5 21C7.22386 21 7 20.7761 7 20.5V18H4.5C4.22386 18 4 17.7761 4 17.5C4 17.2239 4.22386 17 4.5 17H7V14.5C7 14.2239 7.22386 14 7.5 14Z" fill="black"></path>
+                            </svg>
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+   <script src="main.js"></script>
 </body>
 </html>
